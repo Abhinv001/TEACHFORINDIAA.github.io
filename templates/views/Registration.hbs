@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEACHFORINDIA</title>
+  
+  <link rel="stylesheet" href="css/style1.css" />
+
+</head>
+
+<body>
+  <header class="header">
+    <img src="https://static.businessworld.in/article/article_extra_large_image/1580388966_W2QVla_TFI_Logo.png"
+      alt="teachforindia logo" class="logo" />
+    
+
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a class="navbar-link" href="/index">Home</a></li>
+        <li><a class="navbar-link" href="/registration">Registration</a></li>
+        <li><a class="navbar-link" href="/admin">Admin Login</a></li>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="mobile-navbar-btn">
+      <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+      <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+    </div>
+  </header>
+
+  <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <form action="/registration" method="post">
+          <div class="container">
+            <center>
+              <h1><b>Volunteer Registeration Form</b> </h1>
+            </center>
+            <hr>
+            <label><b>name : </b> </label>
+            <input type="text" name="name" placeholder="Name" size="15" >
+            <label> <b>Password :</b> </label>
+            <input type="password" name="password" placeholder="PassWord" size="15" >
+            <label> <b>Conform Password :</b> </label>
+            <input type="password" name="cpassword" placeholder="Conform PassWord" size="15" >
+
+            <label><b> Phone :</b> </label>
+            <input type="text" name="phone" placeholder="Phone no." size="10" >
+
+            <label for="email"><b>Email-Id :</b></label>
+            <input type="text" placeholder="example@gmail.com" name="email" >
+
+            <div>
+              <label><b> location :</b></label>
+              <input type="text" name="location" placeholder="city" size="15" >
+             
+            </div>
+            <div>
+              <label><b>Spoken Language :</b></label>
+              <input type="text" name="language" placeholder="Spoken Language" size="55" >
+              
+            </div>
+            <div>
+              <label><b>Available (In Week) :</b> </label>
+              <input type="text" name="week" placeholder="Week Name" size="55">
+             
+            <button type="submit" class="registerbtn" value="registration">Register</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- ======================================== 
+          Our JavaScript Section Start  
+    ========================================  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
